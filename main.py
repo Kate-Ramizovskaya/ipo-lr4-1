@@ -1,3 +1,3 @@
-num=int(input("Введите число: "))
-spis=[x for x in range(num) if x%2==0]
-print(spis)
+num=int(input("Введите число: ")) #создание переменной и ввод с клавиатуры
+spis=[x for x in range(num) if x%2==0] #создание списка содержащей подходящия под условия числа
+print(spis) #вывод в консоль списка
